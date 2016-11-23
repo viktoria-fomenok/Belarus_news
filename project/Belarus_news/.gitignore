@@ -1,0 +1,9 @@
+/news-common/target/*
+/news-admin/target/*
+/news-client/target/*
+/news-common/.idea/*
+/news-admin/.idea/*
+/news-client/.idea/*
+/news-common/*.iml
+/news-admin/*.iml
+/news-client/*.iml

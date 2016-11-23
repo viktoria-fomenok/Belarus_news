@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <definition name="defaultTemplate" template="/WEB-INF/view/template/defaultTemplate.jsp">
+        <put-attribute name="title" value="News Management"/>
+        <put-attribute name="stylecss" value="/WEB-INF/view/template/stylecss.jsp"/>
+        <put-attribute name="header" value="/WEB-INF/view/template/header.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="menu" value="/WEB-INF/view/template/menu.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/view/template/footer.jsp"/>
+        <put-attribute name="scriptjs" value="/WEB-INF/view/template/scriptjs.jsp"/>
+    </definition>
+
+    <definition name="add_news" extends="defaultTemplate">
+        <put-attribute name="title" value="News List"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/add_news.jsp"></put-attribute>
+    </definition>
+    <definition name="author_editor" extends="defaultTemplate">
+        <put-attribute name="title" value="Author Editor"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/author_editor.jsp"></put-attribute>
+    </definition>
+    <definition name="error" extends="defaultTemplate">
+        <put-attribute name="title" value="Login"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/error_page.jsp"></put-attribute>
+    </definition>
+    <definition name="login" extends="defaultTemplate">
+        <put-attribute name="title" value="Login"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/login.jsp"></put-attribute>
+    </definition>
+    <definition name="news" extends="defaultTemplate">
+        <put-attribute name="title" value="News List"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/news.jsp"></put-attribute>
+    </definition>
+
+    <definition name="news_editor" extends="defaultTemplate">
+        <put-attribute name="title" value="News List"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/news_editor.jsp"></put-attribute>
+    </definition>
+    <definition name="news_view" extends="defaultTemplate">
+        <put-attribute name="title" value="News List"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/news_view.jsp"></put-attribute>
+    </definition>
+    <definition name="tag_editor" extends="defaultTemplate">
+        <put-attribute name="title" value="Tag Editor"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/view/body/tag_editor.jsp"></put-attribute>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/news-admin/news-admin.iml" filepath="$PROJECT_DIR$/news-admin/news-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-client/news-client.iml" filepath="$PROJECT_DIR$/news-client/news-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-common/news-common.iml" filepath="$PROJECT_DIR$/news-common/news-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news-management.iml" filepath="$PROJECT_DIR$/news-management.iml" />
+    </modules>
+  </component>
+</project>
