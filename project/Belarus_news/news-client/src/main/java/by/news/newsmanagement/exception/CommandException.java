@@ -1,0 +1,27 @@
+package by.epam.newsmanagement.exception;
+
+/**
+ * <p>This exception throws when the error occurred on the server</p>
+ * @author Nikita Kobyzov
+ */
+public class CommandException extends Exception {
+    public CommandException() {
+        super();
+    }
+
+    public CommandException(String message) {
+        super(message);
+    }
+
+    public CommandException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    protected CommandException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
+
+    public CommandException(Throwable cause) {
+        super(cause);
+    }
+}
