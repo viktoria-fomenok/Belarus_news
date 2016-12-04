@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<USERS USER_ID="1" USER_NAME="James Bond" USER_LOGIN="Bond007" USER_PASSWORD="James_Bond"/>
+	<USERS USER_ID="2" USER_NAME="Jhon Smith" USER_LOGIN="Smith" USER_PASSWORD="Smith"/>
+	<USERS USER_ID="3" USER_NAME="Marry Jane" USER_LOGIN="Beauty" USER_PASSWORD="Password"/>
+	<USERS USER_ID="4" USER_NAME="Nikita Kobyzov" USER_LOGIN="Nikitos" USER_PASSWORD="Password"/>
+</dataset>

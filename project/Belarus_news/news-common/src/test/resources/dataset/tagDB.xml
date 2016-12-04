@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<TAGS TAG_ID = "1" TAG_NAME="sport"/>
+	<TAGS TAG_ID = "2" TAG_NAME="weather"/>
+	<TAGS TAG_ID = "3" TAG_NAME="science"/>
+	<TAGS TAG_ID = "4" TAG_NAME="art"/>
+	<TAGS TAG_ID = "5" TAG_NAME="health"/>
+</dataset>
